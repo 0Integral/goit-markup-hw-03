@@ -101,13 +101,12 @@ button {
 
 header {
   border-bottom: 1px solid #ececec;
+  padding: 25px 0;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .header-nav {
@@ -167,13 +166,7 @@ header {
   background-color: var(--backfround-hero);
   padding-top: 200px;
   padding-bottom: 200px;
-}
-
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .hero-title {
@@ -185,8 +178,7 @@ header {
   text-transform: uppercase;
   color: var(--text);
   max-width: 696px;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 
 .hero-button {
@@ -240,6 +232,10 @@ header {
   text-align: center;
 }
 
+.pt0 {
+  padding-top: 0;
+}
+
 .doing-titel {
   font-weight: 700;
   font-size: 36px;
@@ -277,8 +273,6 @@ header {
 }
 
 .command-item-info {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -304,9 +298,6 @@ header {
 
 .footer-site {
   background-color: var(--footer-back);
-}
-
-.container-footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -381,14 +372,13 @@ address {
   width: 370px;
   border: 1px solid #eeeeee;
   background-color: var(--background-site);
-  margin-bottom: 4px;
 }
 
 .project-galary-info {
   padding: 20px 24px;
 }
 
-.project-galary-titel {
+.project-galary-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
