@@ -49,6 +49,12 @@ body {
   color: var(--color-main-text);
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 h1,
 h2,
 h3,
